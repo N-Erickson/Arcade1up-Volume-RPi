@@ -11,8 +11,6 @@ def max_volume():
     Popen(['amixer', 'set', 'PCM', 'unmute'])
 	  Popen(['amixer', 'set', 'PCM', '80%'])
  
- 
- 
 def mute_volume():
     Popen(['amixer', 'set', 'PCM', '15%'])
  
